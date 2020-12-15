@@ -1,0 +1,404 @@
+@media only screen and (max-width:1366px){
+    .container{
+        max-width: 1300px;
+    }
+    .menu ul li a{
+        font-size: 12px; padding: 35px 40px;
+    }
+    .menu ul li:first-child a{
+        padding: 35px 40px 35px 0;
+    }
+    .menu ul li:last-child a{
+        padding: 35px 0 35px 40px;
+    }
+    .banner_back img.curve{
+        width: 550px;
+    }
+    .banner_back .slider_back img{
+        width: 512px;
+    }
+    .banner_back .slider_back .content_back h2{
+        font-size: 48px; line-height: 60px;
+    }
+    .banner_back .slider_back .content_back p{
+        font-size: 18px;
+    }
+    .banner_back .slider_back .content_back blockquote{
+        font-size: 14px;
+    }
+    .banner_back .slider_back .content_back{
+        padding-left: 131px;     padding-top: 121px;
+    }
+    .banner_back img.flag{ width: 150px;}
+    .banner_back{
+        height: 620px;
+    }
+    .banner_back .slider_back .carousel-item{
+        min-height: 620px;
+    }
+    .company-details_back .right{
+        padding: 190px 44px 0 43px;
+    }
+    .company-details_back .right .testi_sli p{
+        font-size: 24px;
+    }
+    .company-details_back .right .quote{
+        top: 123px;
+        left: 45px; width: 45px;
+    }
+
+    .ceo_back .right {
+        padding: 35px 44px 0 43px;
+    }
+    .ceo_back .common_heading{ padding-bottom: 18px;}
+    .ceo_back .common_heading h2{
+        font-size: 40px; line-height: 56px;
+    }
+    .ceo_back .right p{ width: 94%;     margin: 25px 0 20px; font-size: 15px;}
+    .ceo_back .custom_button a{ padding: 18px 0;}
+    .ceo_back .left_back img{ height: 564px; object-fit: cover;}
+}
+
+@media only screen and (max-width:1024px){
+    header .top .contact_details{
+        margin: 3px 0 0 0;
+    }
+    header .top .contact_details li a{
+        padding: 0 15px 0 23px; font-size: 12px;
+    }
+    .logo_area img{
+        width: 50%;
+    }
+    .menu ul li a{
+        font-size: 10px; padding: 25px 30px;
+    }
+    .menu ul li:first-child a{
+        padding: 25px 30px 25px 0;
+    }
+    .menu ul li:last-child a{
+        padding: 25px 0 25px 30px;
+    }
+    .menu ul li a .caret{
+        right: 12px;     border-top: 5px solid #fff;     border-left: 4px solid transparent; border-right: 4px solid transparent;
+    }
+    .banner_back img.flag {
+        width: 85px;
+    }
+    .banner_back .slider_back .content_back{
+        padding-left: 78px;     padding-top: 75px;
+    }
+    .banner_back img.curve {
+        width: 413px;
+    }
+    .banner_back .slider_back img {
+        width: 355px;
+    }
+    .banner_back {
+        height: 514px;
+    }
+    .banner_back .slider_back .carousel-item{
+        min-height: 514px;
+    }
+    .banner_back .slider_back .content_back h2 {
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 16px;
+    }
+    .banner_back .slider_back .content_back p {
+        font-size: 15px; margin-bottom: 12px;
+    }
+    .banner_back .slider_back .content_back blockquote {
+        font-size: 12px;
+    }
+    .custom_button a{
+        padding: 17px 22px;     font-size: 12px;
+    }
+    .services_back .main_content .portion h3{
+        font-size: 16px;
+    }
+
+    .company-details_back .right{
+        padding: 61px 82px 0 43px;
+    }
+    .company-details_back .right .testi_sli p {
+        font-size: 20px;     line-height: 42px;
+    }
+    .company-details_back .right .quote {
+        top: 26px;
+    }
+    .company-details_back .right{
+        height: 470px;
+    }
+    .company-details_back{
+        margin-top: -87px;
+    }
+    .company-details_back .left{
+        padding: calc(182px) 0 0;
+    }
+    .company-details_back .left .portion{
+        padding: 16px 0 23px 106px;
+        margin-bottom: 10px;
+    }
+    
+}
+@media only screen and (max-width:1023px){
+    .menu ul{ display: none;}
+    .slicknav_menu{ display: block}
+    .logo_area img{ float: left;}
+
+    .banner_back img.flag {
+        width: 42px;
+    }
+    .banner_back .slider_back .content_back{
+        padding-left: 36px;     padding-top: 33px;
+    }
+    .banner_back img.curve {
+        width: 315px;
+    }
+    .banner_back .slider_back img {
+        width: 260px;
+    }
+    .banner_back {
+        height: 345px;
+    }
+    .banner_back .slider_back .carousel-item{
+        min-height: 345px;
+    }
+    .banner_back .slider_back .content_back h2 {
+        font-size: 28px;
+        line-height: 39px;
+        margin-bottom: 14px;
+    }
+    .banner_back .slider_back .content_back p {
+        font-size: 13px; margin-bottom: 12px;
+    }
+    .banner_back .slider_back .content_back blockquote {
+        font-size: 10px; line-height: 22px; padding: 2px 0 2px 20px;     margin: 0 0 22px 0;
+    }
+    .custom_button a{
+        padding: 15px 0; width: 150px;     font-size: 10px; 
+    }
+    .services_back .main_content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 24px;
+    }
+
+    .common_heading h2{ 
+        font-size: 45px; line-height: 60px;
+    }
+
+    .book_consultant .content{
+        width: 100%; text-align: center; justify-content: center;
+    }
+    .book_consultant .content h2{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .book_consultant .container{
+        min-height: 458px;
+    }
+    .book_consultant .content .button_back{
+        float: none; display: inline-block;
+    }
+    .book_consultant .content .button_back .custom_button{ padding: 0; margin: 0 44px 0 0;}
+
+    .company-details_back{
+        margin: 0; padding: 0;
+    }
+    .company-details_back .left{ width: 100%;}
+    .company-details_back .left{ padding-top: 40px; padding-bottom: 40px;}
+    .company-details_back .left .portion{ width: 100%;}
+    .company-details_back .right{
+        height: auto; width: 100%; margin: 0; padding-bottom: 30px;
+    }
+    .company-details_back .left .portion{
+        padding-left: 0; text-align: center;
+    }
+    .company-details_back .left .portion:last-child{
+        padding-left: 0; text-align: center;
+    }
+    .company-details_back .left .portion img{
+        position: relative;
+    }
+    .company-details_back .right{ padding-right: 20px;}
+    .company-details_back .right .owl-dots{ position: relative; top: 0; width: auto; right: 0; left: 0;}
+    .company-details_back .right .owl-dots .owl-dot{ margin-right: 8px;}
+    .company-details_back .right .testi_sli .port{
+        text-align: center;
+    }
+    .company-details_back .right .quote{ right: 0; margin: auto; left: 0;}
+
+    .ceo_back{ margin-top: 30px;}
+    .ceo_back .left_back {
+        width: 100%; float: left;
+    }
+    .ceo_back .right {
+        padding: 20px; width: 100%; text-align: center;
+    }
+    .ceo_back .common_heading{ padding-bottom: 18px; text-align: center;}
+    .ceo_back .common_heading .dot{ display: inline-block; float: none; right: 0; margin: auto;}
+    .ceo_back .common_heading h2{
+        font-size: 40px; line-height: 56px;
+    }
+    .ceo_back .right p{ width: 94%;     margin: 25px 0 20px; font-size: 15px;}
+    .ceo_back .custom_button a{ padding: 18px 0; display: inline-block; float: none;}
+    .ceo_back .left_back img{ height: auto; object-fit: cover;}
+
+    
+}
+
+@media only screen and (max-width:760px){
+    header .top .contact_details{
+       text-align: center; width: 100%;
+    }
+    header .top .contact_details li{ float: none; display: inline-block}
+    header .top .contact_details li a{
+        font-size: 8px; padding: 0 15px 0 15px;
+    }
+    header .top .contact_details li:last-child a{
+        padding: 0 0 0 15px;
+    }
+    header .top .contact_details li a img{
+        height: 8px;
+    }
+    header .top .social_details{
+        width: 100%; text-align: center; margin: 13px 0 0 0;
+    }
+    header .top .social_details li{ float: none; display:inline-block; margin: 0 5px 0 0;}
+    header .top .social_details li a{ width: 18px; height: 18px; font-size: 10px;}
+
+    .slicknav_menu .slicknav_nav li a{
+        font-size: 12px; padding: 10px 0 10px 15px;
+    }
+    .slicknav_menu .slicknav_nav li ul li a{
+        font-size: 10px; padding: 8px 0 8px 25px;
+    }
+    .book_consultant .content{
+        left: 0;
+    }
+    
+}
+
+@media only screen and (max-width:719px){
+    .banner_back img.flag{display: none;}
+    .banner_back img.curve{display: none;}
+    .banner_back .slider_back img{ display: none}
+    .banner_back{ height: auto; padding: 40px 20px;}
+    .banner_back .slider_back .content_back blockquote{ width: 100%;}
+    .banner_back .slider_back .content_back{ padding: 0 !important;}
+    .banner_back .slider_back .carousel-item{
+        min-height: auto;
+    }
+    .common_heading{
+        padding-bottom: 14px;
+    }
+    .common_heading h2{ 
+        font-size: 27px; line-height: 38px;
+    }
+    .services_back{
+        padding-top: 48px;
+        padding-bottom: 65px;
+    }
+    .services_back p{
+        font-size: 12px; line-height: 18px;
+    }
+
+    
+    .book_consultant .content h2{
+        font-size: 27px;
+        line-height: 38px;
+    }
+    .ceo_back .common_heading h2{
+         font-size: 27px;
+         line-height: 38px;
+    }
+
+}
+@media only screen and (max-width:500px){
+    .services_back .main_content .portion img{
+        height: 86px;
+    }
+    .services_back .main_content .portion h3{ 
+        font-size: 11px;     padding: 16px 0;
+    }
+    .company-details_back .right .testi_sli p{
+         font-size: 15px;     line-height: 30px;
+    }
+    
+}
+
+@media only screen and (max-width:450px){
+    header .top .col-md-10, header .top .col-md-2{ width: 50%;}
+    header .top .contact_details{ margin: -3px 0 0 0; text-align: left;}
+    header .top .contact_details li span{ display: none}
+    header .top .social_details{
+        margin: 0 0 0 0;  text-align: left; width: auto; float: right;
+    }
+    header .top .contact_details li a:after{
+        height: 13px;
+    }
+    .logo_area{
+        padding: 15px 0;
+    }
+    .logo_area img{
+        width: 70%;
+    }
+    .services_back .main_content{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+    .services_back .main_content .portion img {
+        height: 104px;
+    }
+
+
+   
+    .book_consultant .content h2{
+        font-size: 27px;
+        line-height: 38px;
+    }
+    
+    .book_consultant .content .button_back .custom_button a{
+        width: 96px;
+    }
+
+}
+
+@media only screen and (max-width:359px){
+    .banner_back{ padding: 20px 15px;}
+    .banner_back .slider_back .content_back h2{ font-size: 20px; line-height: 29px;}
+    .banner_back .slider_back .content_back blockquote{ font-size: 8px;}
+    .custom_button a {
+        padding: 12px 0; width: 140px;
+        font-size: 8px;
+    }
+    .custom_button a:before{
+         width: 25px; left: -24px;
+    }
+    .custom_button a:after{
+        width: 25px; right: -24px;
+   }
+   .common_heading h2{ 
+        font-size: 22px; line-height: 38px;
+    }
+
+    .book_consultant .content{
+        left: 0;
+    }
+    .book_consultant .content h2{
+        font-size: 22px;
+        line-height: 38px;
+    }
+    
+    .book_consultant .content .button_back .custom_button a{
+        width: 96px;
+    }
+    .book_consultant .container{
+        min-height: 458px;
+    }
+    .book_consultant .content .button_back{
+        float: none; display: inline-block;
+    }
+    .book_consultant .content .button_back .custom_button{ padding: 0; margin: 0 44px 0 0;}
+}
